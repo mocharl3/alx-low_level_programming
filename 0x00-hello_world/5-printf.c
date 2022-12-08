@@ -2,9 +2,9 @@
 
 /**
  ** main - print the string in the printf function
- **
+ *
  ** Description: Using the main function
- ** 
+ *
  ** Return: 0
  **/
 
