@@ -3,14 +3,12 @@
 
 
 /**
-
- * main - Prints a to c, one character at a time.
-
+ ** main - Prints a to c, one character at a time.
  *
-
- * Return: Always 0 (Success)
-
- */
+ ** Description: putchar
+ *
+ ** Return: Always 0 (Success)
+ **/
 
 int main(void)
 
