@@ -1,26 +1,45 @@
-#include <stdio.h>
+nclude <stdio.h>
+
+
 
 /**
 
-** main - Prints a to z and A to Z.
-**
-** Return: Always 0 (Success)
-**/
+ * main - Program prints all alphabets(lowercase) except e and q.
+
+ *
+
+ * Return: Always 0.
+
+ */
 
 int main(void)
 
 {
-	char letter;
 
-	for (letter = 'a'; letter <= 'z'; letter++)
+	char character;
 
-		putchar(letter);
 
-	for (letter = 'A'; letter <= 'Z'; letter++)
 
-		putchar(letter);
+	for (character = 'a'; character <= 'z'; character++)
+
+	{
+
+		if (character == 'e' || character == 'q')
+
+			continue;
+
+		else
+
+			putchar(character);
+
+	}
+
+
 
 	putchar('\n');
 
+
+
 	return (0);
+
 }
