@@ -9,7 +9,6 @@
 /**
  ** main - Entry point
  *
- ** Description: 
  *
  ** Return: Always 0 (Success)
  *
