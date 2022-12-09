@@ -1,4 +1,4 @@
-nclude <stdio.h>
+#include <stdio.h>
 
 
 
@@ -6,6 +6,8 @@ nclude <stdio.h>
 
  * main - Prints a to z and A to Z.
 
+ * Description: letter
+ 
  *
 
  * Return: Always 0 (Success)
