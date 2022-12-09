@@ -3,16 +3,13 @@
 
 
 /**
-
  * main - Prints a to z and A to Z.
 
  * Description: letter
  
- *
-
  * Return: Always 0 (Success)
 
- */
+ **/
 
 int main(void)
 
