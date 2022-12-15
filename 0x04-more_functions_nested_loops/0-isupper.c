@@ -7,12 +7,13 @@
  *
  * Return: Always 0.
  */
+
 int main(void)
 {
 
 	char uppercase = 'A';
 
-	int _isupper = 0;
+	int isupper = 0;
 
 
 
