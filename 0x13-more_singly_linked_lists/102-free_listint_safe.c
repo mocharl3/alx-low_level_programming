@@ -1,4 +1,5 @@
 #include "lists.h"
+
 /**
  * free_listint_safe - free a `listint_t` list and set the head to null
  * @h: double pointer to head of linked list
@@ -21,7 +22,6 @@ size_t free_listint_safe(listint_t **h)
 		count++;
 		hold = current;
 		current = current->next;
-		free(hold);
 		if (hold < current)
 			break;
 	}
