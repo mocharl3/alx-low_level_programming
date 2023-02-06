@@ -9,6 +9,7 @@
 void check_elf(unsigned char *e_ident)
 {
 	int i;
+
 	for (i = 0; i < 4; i++)
 	{
 		if (e_ident[i] != 127 &&
@@ -124,7 +125,7 @@ void print_osabi(unsigned char *e_ident)
 		break;
 	case ELFOSABI_NETBSD:
 		printf("UNIX - NetBSD\n");
-		break;
+	break;
 	case ELFOSABI_LINUX:
 		printf("UNIX - Linux\n");
 		break;

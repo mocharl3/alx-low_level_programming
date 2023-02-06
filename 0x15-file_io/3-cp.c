@@ -11,7 +11,6 @@
 int main(int argc, char *argv[])
 {
 	int fd_r, fd_w, x, m, n;
-
 	char buf[BUFSIZ];
 
 	if (argc != 3)
